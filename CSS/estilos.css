@@ -1,0 +1,128 @@
+.header{
+    background-color: #043458;
+    color: #ffffff;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    height: 50px;
+}
+.header a{
+    color: #ffffff;
+    text-align: left;
+}
+
+.header button:hover{
+    background-color: #6A8BB2;
+}
+
+.header button{
+    color: white;
+    background-color: #043458;
+    border: 0px;
+    font-size: large;
+    height: 50px;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.header b{
+    vertical-align: middle;
+}
+
+body{
+    background-color: #f0f4f7;
+}
+
+.registro_div{
+    margin: 100px;
+}
+
+.boton_prov{
+    width: 150px;
+    height: 40px;
+    background-color: #8B8D90;
+}
+
+.boton_prov:hover{
+    background-color: #00a8ad;
+}
+/*
+.formaLogin{
+    background-color:lightgrey;
+    margin-bottom: auto;
+    margin-top: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    width: 30em;
+    height: 20em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(226, 221, 221);
+}*/
+form{
+    margin: 50px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 2px;
+    border: 2px solid #043458;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e0e4e7;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form input[type="radio"]{
+    width: 50px;
+}
+
+form h1,h2,p{
+    color: black;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    border: 2px solid gray;
+    width: 200px;
+    height: 35px;
+    background-color: #F1F3F3;
+    margin: 8px 0;
+    display: inline-block;
+}
+
+form input[type="submit"]{
+    border: 1px solid #00a8ad;
+    width: 150px;
+    height: 40px;
+    margin: 8px 0;
+    cursor: pointer;
+    background-color: #00a8ad;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+form table{
+    width: 100%;
+    margin: 0px;
+}
+
+.panel_central{
+    margin-right: 50px;
+    width: 500px;
+}
+
+form .captcha{
+margin: 8px 0;
+}
+
+.g-recaptcha{
+   margin-left: 3em;
+}
+
+
+
+
+
+

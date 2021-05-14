@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+video{
+    justify-self: center;
+}
+
+.panel_reproductor{
+    width: 100%;
+    max-width: fit-content;
+}
+
+.panel_reproductor .tricks{
+    background-color: gray;
+
+}
+
+

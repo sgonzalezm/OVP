@@ -1,0 +1,147 @@
+.info_usuario{
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    color: #000;
+}
+
+.logout{
+    margin-top: 20px;
+    grid-column-start: 10;
+    grid-column-end: -1;
+    width: 100px;
+    background-color: #043458;
+    height: 50px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.logout .link_logout{
+    color: #fff;
+}
+
+
+  /*
+  .carrusel {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .fila_poster {
+    text-align: center;
+    font-size: 18px;
+    
+    /* Update: Removed the Flex property - IE FIX */
+   /*
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+  }
+  
+  :root {
+    --swiper-theme-color: #fff;
+  }
+  
+  .categoria .fila {
+    padding: 20px 0;
+  }
+  
+  .categoria .fila_poster {
+    -webkit-transition: 250ms all;
+    transition: 250ms all;
+  }
+  
+  .categoria .fila_poster:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    z-index: 1;
+  }
+  
+  .categoria .fila_poster:first-child:hover {
+    margin: 0 40px;
+  }
+  
+  .categoria .fila_poster:last-child:hover {
+    margin: 0 -40px;
+  }
+  /*# sourceMappingURL=styles.css.map */
+
+  html, body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 10;
+    padding: 10;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    /* Update: Removed the Flex property - IE FIX */
+   
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: center;
+  }
+  
+  :root {
+    --swiper-theme-color: #fff;
+  }
+  
+  .netflix-slider .swiper-wrapper {
+    padding: 20px 0;
+  }
+  
+  .netflix-slider .swiper-slide {
+    -webkit-transition: 250ms all;
+    transition: 250ms all;
+  }
+  
+  .netflix-slider .swiper-slide:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    z-index: 1;
+  }
+  
+  .netflix-slider .swiper-slide:first-child:hover {
+    margin: 0 40px;
+  }
+  
+  .netflix-slider .swiper-slide:last-child:hover {
+    margin: 0 -40px;
+  }
+  /*# sourceMappingURL=styles.css.map */
