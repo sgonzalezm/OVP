@@ -5,7 +5,7 @@ if(!empty($_POST)){
     $secret = "6Lex0cYaAAAAACpEpWiM9h1wYoJQxtuPsH_QI77I";
     $nivel = 3;
     if(isset($_POST['enviar'])){ //Valida que se enviara el formulario por medio de submit
-        if($captcha){
+        if($captcha){ //Validacion de captcha
             $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=$captcha");
             var_dump($response);
             $array_json =json_decode($response, TRUE);
